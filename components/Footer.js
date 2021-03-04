@@ -1,6 +1,9 @@
+import { Container, Row, Col } from 'react-bootstrap';
+
 export default function Footer () {
     return(
-        <div>
-        </div>
+        <Container>
+            <h1> Говно </h1>
+        </Container>
     )
 };

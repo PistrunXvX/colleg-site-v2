@@ -1,5 +1,3 @@
-import style from "../styles/pages/Students.module.scss";
-
 export default function Students () {
     return(
         <div>
