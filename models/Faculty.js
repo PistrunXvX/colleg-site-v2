@@ -6,7 +6,7 @@ const FacultySchema = new mongoose.Schema({
         required: true,
         unique: [true, 'Такое направление уже существует'],
         maxlength: [100, 'Превышен лимит символов'],
-    }
+    },
 });
 
 module.exports = mongoose.models.Faculty || mongoose.model('Faculty', FacultySchema);
